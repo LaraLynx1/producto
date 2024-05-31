@@ -1,0 +1,22 @@
+.fotocuadrado {
+	width: 350px;
+	height: 350px;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@media (max-width: 600px) {
+	.fotocuadrado {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 255px;
+		height: 255px;
+		margin-top: 15px;
+	}
+}
